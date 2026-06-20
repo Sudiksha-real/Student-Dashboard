@@ -6,10 +6,6 @@ const students = [
   { id: 2, name: "Rohan Mehta", score: 72, status: "On Track", attendance: 81 },
   { id: 3, name: "Priya Nair", score: 58, status: "Needs Attention", attendance: 70 },
   { id: 4, name: "Arjun Patel", score: 45, status: "At Risk", attendance: 60 },
-  { id: 1, name: "Aanya Sharma", score: 87, status: "Excellent", attendance: 92 },
-  { id: 2, name: "Rohan Mehta", score: 72, status: "On Track", attendance: 81 },
-  { id: 3, name: "Priya Nair", score: 58, status: "Needs Attention", attendance: 70 },
-  { id: 4, name: "Arjun Patel", score: 45, status: "At Risk", attendance: 60 },
   { id: 5, name: "Sneha Iyer", score: 91, status: "Excellent", attendance: 97 },
   { id: 6, name: "Kabir Singh", score: 66, status: "On Track", attendance: 78 },
   { id: 7, name: "Divya Reddy", score: 52, status: "Needs Attention", attendance: 65 },
@@ -19,8 +15,6 @@ const students = [
   { id: 11, name: "Tanya Verma", score: 49, status: "At Risk", attendance: 61 },
   { id: 12, name: "Kartik Shah", score: 78, status: "On Track", attendance: 85 },
 ]
-
-
 
 function App() {
   const [sortBy, setSortBy] = useState("name")
